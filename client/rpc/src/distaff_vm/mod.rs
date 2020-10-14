@@ -9,11 +9,14 @@
 // This file is part of the Starks Node program.
 // This program is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 // You should have received a copy of the Apache License 2.0
 // along with this program. If not, see <https://www.apache.org/licenses/LICENSE-2.0>.
 
 //! Distaff VM RPC API.
+
+#[cfg(test)]
+mod tests;
 
 use self::error::Result;
 
